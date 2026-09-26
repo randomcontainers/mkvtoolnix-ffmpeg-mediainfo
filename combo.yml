@@ -1,0 +1,5 @@
+# Generated from the combos section of randomcontainers/mkvtoolnix package.yml by randomcontainers/ci.
+# Do not edit; change package.yml in randomcontainers/mkvtoolnix instead.
+name: mkvtoolnix-ffmpeg-mediainfo
+owner: mkvtoolnix
+with: [ffmpeg, mediainfo]
