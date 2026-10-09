@@ -47,7 +47,7 @@ The working directory is `/work`. The image runs as UID 1000, and any other UID 
 | Package | License | Repository |
 |---|---|---|
 | [MKVToolNix](https://mkvtoolnix.download/) | `GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND BSL-1.0` | [randomcontainers/mkvtoolnix](https://github.com/randomcontainers/mkvtoolnix) |
-| [FFmpeg](https://ffmpeg.org/) | `GPL-3.0-or-later` | [randomcontainers/ffmpeg](https://github.com/randomcontainers/ffmpeg) |
+| [FFmpeg](https://ffmpeg.org/) | `GPL-3.0-or-later AND MPL-2.0 AND BSD-3-Clause AND Zlib AND Unlicense` | [randomcontainers/ffmpeg](https://github.com/randomcontainers/ffmpeg) |
 | [MediaInfo](https://mediaarea.net/en/MediaInfo) | `BSD-2-Clause AND Zlib AND MIT AND Brian-Gladman-2-Clause AND Brian-Gladman-3-Clause` | [randomcontainers/mediainfo](https://github.com/randomcontainers/mediainfo) |
 
 ## Verifying
@@ -67,7 +67,7 @@ The images are rebuilt when a new image of a package above is published, for exa
 
 ## Licenses
 
-The image contents are licensed under `GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND BSL-1.0 AND GPL-3.0-or-later AND BSD-2-Clause AND Zlib AND Brian-Gladman-2-Clause AND Brian-Gladman-3-Clause`. The version of each package is in `/usr/local/share/randomcontainers/<package>/version` and its license files are in `/usr/local/share/randomcontainers/<package>/licenses/`.
+The image contents are licensed under `GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND BSL-1.0 AND GPL-3.0-or-later AND MPL-2.0 AND BSD-3-Clause AND Zlib AND Unlicense AND BSD-2-Clause AND Brian-Gladman-2-Clause AND Brian-Gladman-3-Clause`. The version of each package is in `/usr/local/share/randomcontainers/<package>/version` and its license files are in `/usr/local/share/randomcontainers/<package>/licenses/`.
 
 Corresponding source:
 
