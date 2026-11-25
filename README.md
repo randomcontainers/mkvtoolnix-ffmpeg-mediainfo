@@ -59,7 +59,7 @@ gh attestation verify oci://ghcr.io/randomcontainers/mkvtoolnix-ffmpeg-mediainfo
   --repo randomcontainers/mkvtoolnix-ffmpeg-mediainfo --signer-repo randomcontainers/ci
 ```
 
-Each image also has a keyless cosign signature from the same workflow, for admission controllers that check cosign signatures:
+Images published since November 2026 also have a keyless cosign signature from the same workflow, for admission controllers that check cosign signatures. Tags last built before then have only the attestation.
 
 ```sh
 cosign verify ghcr.io/randomcontainers/mkvtoolnix-ffmpeg-mediainfo:latest \
@@ -68,7 +68,7 @@ cosign verify ghcr.io/randomcontainers/mkvtoolnix-ffmpeg-mediainfo:latest \
   --certificate-github-workflow-repository randomcontainers/mkvtoolnix-ffmpeg-mediainfo
 ```
 
-Images from `ghcr.io/randomcontainers/mkvtoolnix` are built in [randomcontainers/mkvtoolnix](https://github.com/randomcontainers/mkvtoolnix), so name that repository in `--repo` and `--certificate-github-workflow-repository`.
+Images from `ghcr.io/randomcontainers/mkvtoolnix` are built in [randomcontainers/mkvtoolnix](https://github.com/randomcontainers/mkvtoolnix), so use `randomcontainers/mkvtoolnix` in `--repo` and `--certificate-github-workflow-repository`.
 
 ## Updates
 
